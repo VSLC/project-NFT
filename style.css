@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d192c;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.nft-card {
+    width: 350px;
+    height: 600px;
+    background-color: #15263F;
+    border-radius: 8px;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.cyan {
+    color: #00FFF8;
+    font-weight: bold;
+}
+
+.soft-blue {
+    color: #8BACD9;
+    font-weight: bold;
+}
+
+.etherium-icone {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+}
+
+.etherium-icone div {
+    display: flex;
+    width: 100px;
+}
+
+.separador-horizontal {
+    margin: 24px 0;
+    width: 300px;
+    height: 1px;
+    background-color: #2E405A;
+}
+
+.avatar div {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatar img {
+    width: 32px;
+    margin-right: 15px;
+}
+
+.etherium-icone img {
+    margin-right: 6px;
+}
+
+.media>img {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title h4 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.descricao p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8BACD9;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
